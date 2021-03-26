@@ -1,0 +1,52 @@
+.container1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  height: 50px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tab4{
+  float: right;
+  justify-self: end;
+}
+
+.container1-part1{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.container2{
+  height: 400px;
+  background-color: palevioletred;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  height: 300px;
+  background-color: violet;
+  gap: 10px;
+  align-items: center;
+}
+
+.mouse,.computer,.cpu,.ram{
+  text-align: center;
+  justify-self: stretch;
+  background-color: blue;
+  margin: 10px solid black;
+}
+
+
+.mouse,.computer :hover{
+  -webkit-transform: rotate(7deg);
+}
